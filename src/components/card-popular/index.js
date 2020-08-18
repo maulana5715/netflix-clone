@@ -2,7 +2,7 @@
 
 import React from "react";
 import Styles from "./style.module.css";
-function Card(props) {
+function Cardpopular(props) {
   const { data } = props;
   return (
     <div className={Styles.card}>
@@ -10,4 +10,4 @@ function Card(props) {
     </div>
   );
 }
-export default Card;
+export default Cardpopular;
